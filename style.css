@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  color: #fff;
+}
+
 #bg-img {
   height: 100%;
   width: 100%;
@@ -66,14 +70,15 @@ header {
 }
 
 footer {
-  background-color: #666;
+  background-color: #333;
 }
 
 #footer-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 25px;
+  padding: 60px;
+  border-bottom: 2px solid #fff;
 }
 
 #footer-top1 {
@@ -86,9 +91,31 @@ footer {
   justify-content: space-between;
 }
 
+footer a {
+  font-size: 18px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #bottom-logo {
   width: 300px;
   height: 30px;
   margin: 10px;
 }
+
+#footer-bottom {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-bottom p{
+  font-size: 18px;
+  padding: 20px;
+}
+
 
