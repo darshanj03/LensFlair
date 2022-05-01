@@ -146,11 +146,9 @@ footer a {
   text-align: justify;
 }
 
-
-
 #article-img {
-  height: 310px;
-  width: 450px;
+  height: 344px;
+  width: 500px;
 }
 
 main h1 {
@@ -183,6 +181,57 @@ h2 {
 
 .art-text {
   font-family: 'Inter',serif;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: lighter;
+}
+
+#read-more {
+  background-color: none;
+}
+
+
+
+
+/* CSS */
+.read-more {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.read-more:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.read-more:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+#container a {
+  color: #000;
+  
+}
+
+@media (min-width: 768px) {
+  .read-more {
+    padding: 13px 50px 13px;
+  }
 }
