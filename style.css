@@ -118,4 +118,27 @@ footer a {
   padding: 20px;
 }
 
+#container {
+  padding: 50px 0 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#row p {
+  width: 80%;
+  text-align: justify;
+}
+
+
+
+#article-img {
+  height: 418px;
+  width: 450px;
+}
 
