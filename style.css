@@ -385,6 +385,8 @@ hr {
   font-family: 'Inter',serif;
   font-size: 23px;
   font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #test {
