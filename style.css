@@ -56,6 +56,15 @@ font-family: 'Inter',serif;
   font-weight: 100;
 }
 
+#head1 {
+  text-align: center; 
+  z-index: 10;
+  border: 0px solid transparent;
+  background-color: rgba(0, 0, 0, 0.25);
+  margin-right: 20px;
+  color: #fff;
+}
+
 #guide {
   display: flex;
   align-items: center;
@@ -158,7 +167,7 @@ footer a:hover {
   width: 500px;
 }
 
-main h1 {
+#main-head h1 {
   font-size: 100px;
   font-family: 'Inter', serif;
   font-weight: 100;
@@ -178,7 +187,7 @@ hr {
   background-color: #333;
 }
 
-h2 {
+#row h2 {
   font-family: 'Inter',serif;
   font-weight: bold;
   font-size: 38px;
@@ -196,10 +205,6 @@ h2 {
   background-color: none;
 }
 
-
-
-
-/* CSS */
 .read-more {
   font-size: 16px;
   font-weight: 200;
@@ -235,6 +240,133 @@ h2 {
 #container a {
   color: #000;
   
+}
+
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.disable-action {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+#main-article1 {
+  padding: 50px;
+  text-align: justify;
+}
+
+.cl-subtitle-wrap-text {
+  background-image: url(/assets/images/yellobg.png);
+  background-repeat: repeat-x;
+  background-color: #fef200;
+  padding: 0 10px;
+  display: inline-block;
+  min-height: 50px;
+}
+
+.cl-subtitle-wrap-text h3 {
+  color: #000;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'helvetica';
+}
+
+#buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  margin-left: 15px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 @media (min-width: 768px) {
