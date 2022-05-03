@@ -497,3 +497,16 @@ hr {
 .tooltipright:hover .tooltiptext {
   visibility: visible;
 }
+
+#connect  {
+  margin-top: 25px;
+}
+
+.btn-icon {
+  font-size: 30px;
+  color: #666;
+}
+
+.btn-icon:hover {
+  color: #fff;
+}
