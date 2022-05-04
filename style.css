@@ -38,16 +38,20 @@ font-family: 'Inter',serif;
   display: flex;
   justify-content: space-between;
   margin: 10px;
+  padding: 16px;
+  font-family: 'Inter',serif;
+
 }
 
 #quick-links p{
-  font-size: 18px;
   color: #fff;
   margin: 10px;
+  padding: 15px;
+  font-size: 20px;
 }
 
 #quick-links a{
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -573,7 +577,6 @@ hr {
 .dropbtn {
   background-color: transparent;
   color: white;
-  font-size: 18px;
   border: none;
   cursor: pointer;
 }
@@ -586,21 +589,20 @@ hr {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #111;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {color: rgb(42, 42, 253);}
+.dropdown-content a:hover {background-color: rgba(36,36,36);}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: transparent;}
+.dropdown:hover .dropbtn {background-color: rgba(0,0,0,0.5);}
