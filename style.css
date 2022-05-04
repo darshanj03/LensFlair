@@ -36,10 +36,15 @@ font-family: 'Inter',serif;
   margin: 10px;
 }
 
-#quick-links p,a{
-  font-size: 20px;
+#quick-links p{
+  font-size: 18px;
   color: #fff;
   margin: 10px;
+}
+
+#quick-links a{
+  font-size: 18px;
+  color: #fff;
 }
 
 #heading {
@@ -49,7 +54,7 @@ font-family: 'Inter',serif;
 
 #heading h1 {
   margin-top: 775px;
-  font-size: 100px;
+  font-size: 80px;
   padding: 20px; 
   margin-left: 20px; 
   font-family: 'Italiana', serif;
@@ -65,6 +70,24 @@ font-family: 'Inter',serif;
   color: #fff;
 }
 
+#head7 {
+  text-align: center; 
+  z-index: 10;
+  border: 0px solid transparent;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-right: 20px;
+  color: #fff;
+}
+
+#head8 {
+  text-align: center; 
+  z-index: 10;
+  border: 0px solid transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
+  color: #fff;
+}
+
 #guide {
   display: flex;
   align-items: center;
@@ -75,9 +98,9 @@ font-family: 'Inter',serif;
 }
 
 #logo {
-  width: 379px;
-  height: 33px;
-  margin: 10px;
+  width: 370px;
+  height: 30px;
+  margin-top: 10px;
 }
 
 .gallery{
@@ -418,6 +441,36 @@ hr {
   height: 100vh;
   width: 100%;
   background: url('./assets/images/aperturebg.jpg') no-repeat center center/cover;
+}
+
+#test6 {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/images/iso.jpg') no-repeat center center/cover;
+}
+
+#test7 {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/images/exposuretriangle.jpg') no-repeat center center/cover;
+}
+
+#test8 {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/images/shutter.jpg') no-repeat center center/cover;
+}
+
+#test9 {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/images/long.jpg') no-repeat center center/cover;
+}
+
+#test10 {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/images/good.jpg') no-repeat center center/cover;
 }
 
 #list {
