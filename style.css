@@ -369,12 +369,6 @@ hr {
   visibility: visible;
 }
 
-@media (min-width: 768px) {
-  .read-more {
-    padding: 13px 50px 13px;
-  }
-}
-
 #information h1 {
   font-family: 'Forum',serif;
   font-size: 45px;
